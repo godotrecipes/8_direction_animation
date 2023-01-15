@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://cdgn8mem8hr2i"]
+
+[ext_resource type="Texture2D" uid="uid://rfr6f1fhgn67" path="res://assets/battleback4.png" id="1_lob7q"]
+[ext_resource type="PackedScene" uid="uid://cbef1a5dfedwu" path="res://8_directional_character.tscn" id="1_uc25o"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w4cgr"]
+size = Vector2(1157, 234)
+
+[node name="8DirectionalDemo" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(1.04167, 1.04187)
+texture = ExtResource("1_lob7q")
+centered = false
+
+[node name="8DirectionalCharacter" parent="." instance=ExtResource("1_uc25o")]
+position = Vector2(557, 468)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(19, 646, 898, 644, 899, 594, 1017, 544, 1129, 576, 1130, 229, 1188, 229, 1190, 685, -37, 681, -40, 242, 19, 242)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(568.5, 107)
+shape = SubResource("RectangleShape2D_w4cgr")

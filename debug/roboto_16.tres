@@ -1,0 +1,15 @@
+[gd_resource type="FontFile" load_steps=2 format=3 uid="uid://c13u41svev2hv"]
+
+[ext_resource type="FontFile" uid="uid://w0uatcg20kft" path="res://debug/Roboto-Medium.ttf" id="1"]
+
+[resource]
+fallbacks = [ExtResource("1")]
+face_index = null
+embolden = null
+transform = null
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
