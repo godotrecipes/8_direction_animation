@@ -1149,10 +1149,11 @@ motion_mode = 1
 script = ExtResource("1_rlsb2")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-frames = SubResource("SpriteFrames_1ycwt")
+sprite_frames = SubResource("SpriteFrames_1ycwt")
 animation = &"idle0"
+frame = 7
+frame_progress = 0.0498432
 speed_scale = 2.0
-playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(7, 44)

@@ -14,7 +14,7 @@ func _physics_process(delta):
 		current_animation = "run"
 		velocity = mouse.normalized() * speed
 		move_and_slide()
-	$AnimatedSprite2D.animation = current_animation + str(angle)
+	$AnimatedSprite2D.play(current_animation + str(angle))
 
 # Visualize directional calculations
 # Press "Tab" to turn on/off debug drawing
