@@ -16,9 +16,9 @@ dest_files=["res://.godot/imported/shadow-crusader_walk_70013.png-a6b0ef1f98fc66
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false

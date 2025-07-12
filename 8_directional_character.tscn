@@ -1,7 +1,7 @@
 [gd_scene load_steps=268 format=3 uid="uid://cbef1a5dfedwu"]
 
 [ext_resource type="Texture2D" uid="uid://b66t4ug2wq0t6" path="res://assets/isometric_Mini-Crusader/idle/crusader_idle_20000.png" id="1_kc65v"]
-[ext_resource type="Script" path="res://8_directional_character.gd" id="1_rlsb2"]
+[ext_resource type="Script" uid="uid://bme58wmmjqkk2" path="res://8_directional_character.gd" id="1_rlsb2"]
 [ext_resource type="Texture2D" uid="uid://chlck0a0wegg7" path="res://assets/isometric_Mini-Crusader/idle/crusader_idle_20001.png" id="2_gpmm1"]
 [ext_resource type="Texture2D" uid="uid://cg64t2mxhgx7t" path="res://assets/isometric_Mini-Crusader/idle/crusader_idle_20002.png" id="3_uhlxg"]
 [ext_resource type="Texture2D" uid="uid://5n480lq0q1mc" path="res://assets/isometric_Mini-Crusader/idle/crusader_idle_20003.png" id="4_7dbag"]

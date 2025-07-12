@@ -16,9 +16,9 @@ dest_files=["res://.godot/imported/crusader_attack_70001.png-57b1a7a7060f6770c86
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false

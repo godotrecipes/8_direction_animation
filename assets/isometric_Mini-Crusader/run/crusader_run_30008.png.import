@@ -16,9 +16,9 @@ dest_files=["res://.godot/imported/crusader_run_30008.png-0cf4c5635bf53072a76fb2
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false

@@ -16,9 +16,9 @@ dest_files=["res://.godot/imported/shadow-crusader_attack_30010.png-e6a9b5ae7ad7
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false

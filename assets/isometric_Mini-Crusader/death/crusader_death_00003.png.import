@@ -16,9 +16,9 @@ dest_files=["res://.godot/imported/crusader_death_00003.png-96e6e7e3836593d991b9
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
 compress/hdr_compression=1
-compress/bptc_ldr=0
 compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=false
